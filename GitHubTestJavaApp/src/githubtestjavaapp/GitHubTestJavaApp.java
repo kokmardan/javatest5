@@ -24,6 +24,8 @@ public class GitHubTestJavaApp {
         System.out.println("My Name is Daulet!");
         System.out.println("My second name Baimbetov");
         
+        System.out.println("My Branch name is KOKMARDAN!");
+        
     
     }
 }
