@@ -25,6 +25,33 @@ public class SortAlgorithms
         System.out.println("");
     }
     
+    public void insertSort()
+    {
+        int in, out, k, min ;
+        
+        for (out = 0; out < nElems-1; out++)
+        {
+            in = out ;
+            min = mas[in] ;
+            k = in ;
+            for(in = out+1; in < nElems ; in++)
+                if (min < mas[in])
+                {
+                    min = mas[in] ;
+                    k = in ;
+                }
+            swap(out, k) ;
+        }
+        
+    }
+    
+    public void swap(int x, int y)
+    {
+        int temp = mas[x] ;
+        mas[x] = mas[y] ;
+        mas[y] = temp ;
+    }
+    
     
     
 }

@@ -16,6 +16,10 @@ public class GitHubTestJavaApp {
         
         a.display();
         
+        a.insertSort();
+        
+        a.display() ;
+        
     
     }
 }
