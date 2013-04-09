@@ -21,8 +21,8 @@ public class GitHubTestJavaApp {
         
         a.display() ;
         
-        System.out.println("I am kokmardan user");
-        System.out.println("Second commit");
+        System.out.println("My Name is Daulet!");
+        System.out.println("My second name Baimbetov");
         
     
     }
