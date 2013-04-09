@@ -1,19 +1,21 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package githubtestjavaapp;
 
-/**
- *
- * @author iMac01
- */
 public class GitHubTestJavaApp {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+    {
+        System.out.println("Hello Java!");
+        
+        SortAlgorithms a = new SortAlgorithms(100) ;
+        
+        a.insert(12) ;
+        a.insert(34);
+        a.insert(2);
+        a.insert(556);
+        a.insert(45);
+        
+        a.display();
+        
+    
     }
 }
