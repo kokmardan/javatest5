@@ -21,6 +21,8 @@ public class GitHubTestJavaApp {
         
         a.display() ;
         
+        System.out.println("My Name is Daulet!");
+        
     
     }
 }
