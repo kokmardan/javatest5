@@ -52,6 +52,20 @@ public class SortAlgorithms
         mas[y] = temp ;
     }
     
+    public void bubbleSort()
+    {
+        int in, out ; 
+        
+        for(out = nElems-1; out > 0; out--)
+        {
+            for (in = 0; in < out; in++)
+            {
+                if (mas[in] > mas[in+1])
+                    swap(in, in+1) ;
+            }
+        }
+    }
+    
     
     
 }

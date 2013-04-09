@@ -16,7 +16,8 @@ public class GitHubTestJavaApp {
         
         a.display();
         
-        a.insertSort();
+        //a.insertSort();
+        a.bubbleSort();
         
         a.display() ;
         
